@@ -31,6 +31,6 @@
 		"gulp-responsive": "^2.11.0",
 		"gulp-uglify-es": "^2.0.0",
 		"gulp-v3": "^3.12.1",
-		"sharp": "^0.25.2"
+		"sharp": "^0.28.0"
 	}
 }
