@@ -1,0 +1,43 @@
+{% extends "layout.nunjucks" %} {% block content %}
+<div class="prototype-intro-wrapper">
+    <div class="arc-prototype-header">
+        <div class="logo">
+            <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1296 936" enable-background="new 0 0 1296 936" xml:space="preserve">
+                <g>
+                    <g>
+                        <path fill="#FFFFFF" d="M648.004,935.407c-257.736,0-467.415-209.675-467.415-467.411c0-257.725,209.679-467.403,467.415-467.403
+                            c257.725,0,467.407,209.679,467.407,467.403C1115.411,725.732,905.729,935.407,648.004,935.407z M648.004,26.166
+                            c-243.638,0-441.842,198.2-441.842,441.83c0,243.627,198.204,441.846,441.842,441.846c243.627,0,441.834-198.219,441.834-441.846
+                            C1089.838,224.366,891.631,26.166,648.004,26.166z"/>
+                    </g>
+                    <g>
+                        <polygon class="one" fill="#E8E8E8" points="656.521,451.865 550.45,269.351 355.217,666.645 550.45,666.645 		"/>
+                        <polygon class="two" fill="#FFFFFF" points="550.45,269.351 745.565,269.351 940.783,666.645 745.565,666.645 		"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="page-title">
+            <h1 class="">Arc Prototypes</h1>
+        </div>
+    </div>
+    <br />
+    <div class="prototype-content prototype-group">   
+        <h2 class="group-title">Photo Center</h2>  
+        <div class="prototype-list">
+            <a href="/photo-center/gallery-rewrite" class="prototype-list-item">
+                <h2 class="prototype-title">React Gallery Rewrite</h2>
+                <h6 class="prototype-date">April 15, 2020</h6>
+                <hr />
+                <p>Redesign of Galleries within Photo Center</p>
+            </a>
+                <a href="/photo-center/image-tiles" class="prototype-list-item">
+                <h2 class="prototype-title">Image Tiles</h2>
+                <h6 class="prototype-date">February 12, 2020</h6>
+                <hr />
+                <p>Optimizations & redesign for the image search landing page.</p>
+            </a>
+        </div>
+    </div>    
+</div>
+{% endblock %}

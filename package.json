@@ -1,0 +1,36 @@
+{
+	"name": "gulp-starter",
+	"version": "1.0.0",
+	"description": "A starting point for building static sites with gulp.js",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.24.5",
+		"event-stream": "^3.3.4",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^4.0.0",
+		"gulp-clean-css": "^3.9.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-notify": "^3.0.0",
+		"gulp-nunjucks-render": "^2.2.2",
+		"gulp-sass": "^4.0.1",
+		"gulp-uglify": "^3.0.2",
+		"gulp-util": "^3.0.8",
+		"gulp-webpack": "^1.5.0"
+	},
+	"dependencies": {
+		"del": "^3.0.0",
+		"gulp-debug": "^4.0.0",
+		"gulp-gm": "0.0.9",
+		"gulp-load-plugins": "^1.5.0",
+		"gulp-newer": "^1.4.0",
+		"gulp-responsive": "^2.11.0",
+		"gulp-uglify-es": "^2.0.0",
+		"gulp-v3": "^3.12.1",
+		"sharp": "^0.25.2"
+	}
+}

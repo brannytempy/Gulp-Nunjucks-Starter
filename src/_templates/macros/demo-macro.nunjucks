@@ -1,0 +1,3 @@
+{% macro demo(linkTo, linkClass, linkContent, changeNumber) %}
+    <a href="{{ linkTo }}" class="{{linkClass}}">{{ linkContent }} <div class="circle">{{ changeNumber }}</div></a>
+{% endmacro %}
