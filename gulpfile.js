@@ -30,7 +30,6 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('copy-scripts', function() {
-	gulp.src('./src/js/pace.js').pipe(gulp.dest('./app/assets/js/'));
 });
 
 gulp.task('copy-images', function() {
